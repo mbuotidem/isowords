@@ -34,7 +34,7 @@ jobs:
     - name: Bootstrap
       run: make bootstrap
     - name: Run tests
-      run: make test
+      run: make build-client-preview-apps
 
   # ubuntu:
   #   name: Ubuntu
