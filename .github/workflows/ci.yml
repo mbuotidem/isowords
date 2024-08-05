@@ -16,7 +16,7 @@ concurrency:
 jobs:
   mac:
     name: macOS
-    runs-on: ghcr.io/cirruslabs/macos-runner:sonoma
+    runs-on: ghcr.io/cirruslabs/macos-runner:sonoma-lg
     steps:
     - uses: actions/checkout@v4
       # - name: Setup tmate session
